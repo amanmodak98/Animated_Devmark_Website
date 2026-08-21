@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // allowedDevOrigins only needed for local LAN dev; not required for production
+  turbopack: {
+    root: __dirname,
+  },
 };
 
 export default nextConfig;

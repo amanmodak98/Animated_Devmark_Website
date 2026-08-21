@@ -97,6 +97,7 @@ export default function Footer() {
             <ChevronUp aria-hidden="true" />
           </a>
           <p className="footer-bottom__copyright">© {new Date().getFullYear()} DevMark Solution. All rights reserved.</p>
+          <p className="footer-bottom__copyright">Designed &amp; Developed by <a href="https://www.infirexa.tech" target="_blank" rel="noopener noreferrer">Infirexa</a></p>
           <ul className="footer-bottom__legal">
             {legalLinks.map((label) => (
               <li key={label}>

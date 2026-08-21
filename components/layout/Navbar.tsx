@@ -44,7 +44,7 @@ export default function Navbar() {
           {/* CTA */}
           <div className="navbar__action">
             <Button
-              href="#contact"
+              href="/contact"
               variant="primary"
               className="button--compact"
             >
@@ -76,7 +76,7 @@ export default function Navbar() {
             ))}
 
             <Button
-              href="#contact"
+              href="/contact"
               variant="primary"
               className="button--compact"
             >
