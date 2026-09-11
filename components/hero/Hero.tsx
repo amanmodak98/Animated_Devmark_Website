@@ -10,12 +10,12 @@ export default function Hero() {
       <HeroMotion />
       <Container className="growth-shell">
         <div className="growth-copy">
-          <p className="growth-kicker"><i /> Digital growth studio - Kathmandu & beyond</p>
+          <p className="growth-kicker"><i /> Digital Innovation Studio — Crafting Digital Excellence</p>
           <h1 className="growth-title">
-            <span className="growth-line"><span className="growth-word">BUILD THE</span></span>
-            <span className="growth-line"><span className="growth-word">NEXT <em>MOVE.</em></span></span>
+            <span className="growth-line"><span className="growth-word">CREATE THE</span></span>
+            <span className="growth-line"><span className="growth-word">FUTURE <em>NOW.</em></span></span>
           </h1>
-          <p className="growth-lead">Websites, intelligent automation, and creative campaigns - built as one connected growth system.</p>
+          <p className="growth-lead">Transform your vision into stunning digital experiences with cutting-edge design, intelligent automation, and strategic innovation.</p>
           <div className="growth-actions">
             <Button href="#contact" variant="primary">Start a project</Button>
             <a href="#portfolio" className="growth-secondary"><span className="growth-secondary__label">Explore our work</span> <span className="growth-secondary__arrow">↓</span></a>

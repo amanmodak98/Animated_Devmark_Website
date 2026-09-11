@@ -56,7 +56,9 @@ export default function Navbar() {
           <button
             className="mobile-toggle"
             onClick={() => setIsOpen(!isOpen)}
-            aria-label="Toggle Menu"
+            aria-expanded={isOpen}
+            aria-controls="mobile-menu"
+            aria-label="Toggle menu"
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -64,7 +66,7 @@ export default function Navbar() {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <nav className="mobile-nav">
+          <nav id="mobile-menu" className="mobile-nav">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
